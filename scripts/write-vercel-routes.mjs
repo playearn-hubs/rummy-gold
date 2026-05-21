@@ -26,7 +26,7 @@ for (const { clean, file } of ROUTES) {
 
 const vercel = {
   $schema: "https://openapi.vercel.sh/vercel.json",
-  buildCommand: null,
+  buildCommand: "node scripts/copy-clean-urls.mjs",
   outputDirectory: ".",
   cleanUrls: true,
   trailingSlash: false,

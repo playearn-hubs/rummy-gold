@@ -85,8 +85,9 @@ export const PAGES = [
     description:
       "Rummy Gold blog with online rummy tips, tournament news, bonus updates, and strategy guides for Indian rummy players.",
     keywords: kw("rummy blog", "rummy tips", "online rummy news"),
-    priority: 0.75,
+    priority: 0,
     changefreq: "weekly",
+    noindex: true,
     tags: ["rummy tips", "online rummy blog", "rummy gold news"],
     faq: faq([{ q: "Where can I learn rummy strategy?", a: "Visit our How to Play section and the home page FAQ for guides and rules." }]),
   },
@@ -337,3 +338,83 @@ export const PAGES = [
     faq: [],
   },
 ];
+
+/** Human-readable breadcrumb labels */
+export const BREADCRUMB_LABELS = {
+  "/download": "Download APK",
+  "/contact-us": "Contact Us",
+  "/privacy-policy": "Privacy Policy",
+  "/disclaimer": "Disclaimer",
+  "/refer-and-earn": "Refer & Earn",
+  "/blog": "Blog",
+  "/games": "Games",
+  "/games/online-rummy": "Online Rummy",
+  "/games/teen-patti": "Teen Patti",
+  "/games/poker": "Poker",
+  "/games/fantasy-cricket": "Fantasy Cricket",
+  "/games/casino-games": "Casino Games",
+  "/games/slots": "Slots",
+  "/bonuses": "Bonuses",
+  "/bonuses/welcome-bonus": "Welcome Bonus",
+  "/bonuses/referral-bonus": "Referral Bonus",
+  "/bonuses/daily-cashback": "Daily Cashback",
+  "/bonuses/first-deposit": "First Deposit",
+  "/how-to-play": "How to Play",
+  "/how-to-play/rummy": "How to Play Rummy",
+  "/how-to-play/rummy-rules": "Rummy Rules",
+  "/how-to-play/teen-patti-rules": "Teen Patti Rules",
+  "/how-to-play/poker-hand-rankings": "Poker Hand Rankings",
+  "/responsible-gaming": "Responsible Gaming",
+};
+
+/** Internal links for topical authority */
+export const RELATED_LINKS = {
+  "/download": [
+    { href: "/games/online-rummy", label: "Play Online Rummy" },
+    { href: "/bonuses/welcome-bonus", label: "Welcome Bonus" },
+    { href: "/how-to-play/rummy", label: "How to Play Rummy" },
+    { href: "/#faq", label: "Download FAQ" },
+  ],
+  "/games": [
+    { href: "/games/online-rummy", label: "Online Rummy" },
+    { href: "/games/teen-patti", label: "Teen Patti" },
+    { href: "/games/poker", label: "Poker" },
+    { href: "/download", label: "Download App" },
+  ],
+  "/games/online-rummy": [
+    { href: "/how-to-play/rummy-rules", label: "Rummy Rules" },
+    { href: "/bonuses/welcome-bonus", label: "Welcome Bonus" },
+    { href: "/download", label: "Download APK" },
+  ],
+  "/games/teen-patti": [
+    { href: "/how-to-play/teen-patti-rules", label: "Teen Patti Rules" },
+    { href: "/download", label: "Teen Patti Gold Download" },
+  ],
+  "/bonuses": [
+    { href: "/bonuses/welcome-bonus", label: "Welcome Bonus" },
+    { href: "/refer-and-earn", label: "Refer & Earn" },
+    { href: "/download", label: "Download App" },
+  ],
+  "/how-to-play": [
+    { href: "/how-to-play/rummy", label: "How to Play Rummy" },
+    { href: "/how-to-play/rummy-rules", label: "Rummy Rules" },
+    { href: "/games/online-rummy", label: "Play Online Rummy" },
+  ],
+  "/": [
+    { href: "/download", label: "Download Rummy Gold APK" },
+    { href: "/games", label: "All Games" },
+    { href: "/bonuses", label: "Bonuses" },
+  ],
+};
+
+export function getRelatedLinks(path) {
+  if (RELATED_LINKS[path]) return RELATED_LINKS[path];
+  const parent = path.replace(/\/[^/]+$/, "") || "/";
+  if (RELATED_LINKS[parent]) return RELATED_LINKS[parent].filter((l) => l.href !== path).slice(0, 4);
+  return [
+    { href: "/download", label: "Download APK" },
+    { href: "/games", label: "Games" },
+    { href: "/bonuses", label: "Bonuses" },
+    { href: "/how-to-play", label: "How to Play" },
+  ];
+}

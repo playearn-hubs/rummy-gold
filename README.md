@@ -11,7 +11,13 @@ Static SEO site for **Rummy Gold** (HTML/CSS/JS). Deploy the repository root to 
    npm run build
    ```
 
-3. Deploy the whole project root (not a subfolder).
+3. Deploy the whole project root (not a subfolder). Vercel runs `copy-clean-urls` on deploy so `/privacy-policy` etc. work as real folders.
+
+**Vercel project settings (if routes still 404):**
+- Root Directory: leave empty (repo root)
+- Framework Preset: **Other**
+- Build Command: `node scripts/copy-clean-urls.mjs` (or leave blank if `vercel.json` sets it)
+- Output Directory: `.` or leave empty
 4. In **Google Search Console**, submit `https://www.rummygold.com/sitemap.xml`.
 
 ## Scripts
@@ -24,8 +30,8 @@ Static SEO site for **Rummy Gold** (HTML/CSS/JS). Deploy the repository root to 
 
 ## SEO structure
 
-- **25 indexable URLs** in `sitemap.xml` (clean paths, no `.html`)
-- Per-page: title, description, keywords, canonical, Open Graph, Twitter, JSON-LD (WebPage, Breadcrumb, FAQ where applicable)
+- **24 indexable URLs** in `sitemap.xml` (clean paths; `/blog` noindex until you add posts)
+- Per-page: title, description, keywords, canonical, hreflang, Open Graph/Twitter (with image alt), JSON-LD (Article on guides, WebPage, Breadcrumb, FAQ), internal related links, microdata FAQ
 - Home: SoftwareApplication, Organization, FAQPage, WebSite schema
 - `robots.txt` at site root; `/404` disallowed
 

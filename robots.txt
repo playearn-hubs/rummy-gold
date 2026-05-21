@@ -3,6 +3,7 @@ User-agent: *
 Allow: /
 
 Disallow: /404
+Disallow: /pages/
 
 User-agent: Googlebot
 Allow: /
