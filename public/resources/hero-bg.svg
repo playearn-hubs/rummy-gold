@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 640" preserveAspectRatio="xMidYMin slice">
+  <defs>
+    <linearGradient id="sky" x1="240" y1="0" x2="240" y2="640">
+      <stop offset="0%" stop-color="#1a2338"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#070b14"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="30%" r="50%">
+      <stop offset="0%" stop-color="#e8c547" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#e8c547" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="480" height="640" fill="url(#sky)"/>
+  <rect width="480" height="640" fill="url(#glow)"/>
+  <circle cx="400" cy="100" r="80" fill="#22a06b" opacity="0.08"/>
+  <rect x="70" y="220" width="88" height="128" rx="12" fill="#f8fafc" opacity="0.95" transform="rotate(-10 114 284)"/>
+  <rect x="145" y="240" width="88" height="128" rx="12" fill="#f8fafc" opacity="0.88" transform="rotate(5 189 304)"/>
+  <rect x="220" y="230" width="88" height="128" rx="12" fill="#f8fafc" opacity="0.92" transform="rotate(-4 264 294)"/>
+  <rect x="295" y="250" width="88" height="128" rx="12" fill="#f8fafc" opacity="0.85" transform="rotate(8 339 314)"/>
+  <text x="240" y="460" text-anchor="middle" font-family="system-ui,sans-serif" font-size="32" font-weight="800" fill="#e8c547">Rummy Gold</text>
+  <text x="240" y="500" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" fill="#94a3b8">India's Premium Online Rummy</text>
+</svg>

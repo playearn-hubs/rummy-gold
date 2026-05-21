@@ -1,0 +1,406 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "buildCommand": null,
+  "outputDirectory": ".",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/pages/download.html",
+      "destination": "/download",
+      "permanent": true
+    },
+    {
+      "source": "/pages/download",
+      "destination": "/download",
+      "permanent": true
+    },
+    {
+      "source": "/pages/contact.html",
+      "destination": "/contact-us",
+      "permanent": true
+    },
+    {
+      "source": "/pages/contact",
+      "destination": "/contact-us",
+      "permanent": true
+    },
+    {
+      "source": "/pages/privacy.html",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/pages/privacy",
+      "destination": "/privacy-policy",
+      "permanent": true
+    },
+    {
+      "source": "/pages/terms.html",
+      "destination": "/disclaimer",
+      "permanent": true
+    },
+    {
+      "source": "/pages/terms",
+      "destination": "/disclaimer",
+      "permanent": true
+    },
+    {
+      "source": "/pages/responsible-gaming.html",
+      "destination": "/responsible-gaming",
+      "permanent": true
+    },
+    {
+      "source": "/pages/responsible-gaming",
+      "destination": "/responsible-gaming",
+      "permanent": true
+    },
+    {
+      "source": "/pages/refer.html",
+      "destination": "/refer-and-earn",
+      "permanent": true
+    },
+    {
+      "source": "/pages/refer",
+      "destination": "/refer-and-earn",
+      "permanent": true
+    },
+    {
+      "source": "/pages/blog.html",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/pages/blog",
+      "destination": "/blog",
+      "permanent": true
+    },
+    {
+      "source": "/pages/games/index.html",
+      "destination": "/games",
+      "permanent": true
+    },
+    {
+      "source": "/pages/games/index",
+      "destination": "/games",
+      "permanent": true
+    },
+    {
+      "source": "/pages/games/online-rummy.html",
+      "destination": "/games/online-rummy",
+      "permanent": true
+    },
+    {
+      "source": "/pages/games/online-rummy",
+      "destination": "/games/online-rummy",
+      "permanent": true
+    },
+    {
+      "source": "/pages/games/teen-patti.html",
+      "destination": "/games/teen-patti",
+      "permanent": true
+    },
+    {
+      "source": "/pages/games/teen-patti",
+      "destination": "/games/teen-patti",
+      "permanent": true
+    },
+    {
+      "source": "/pages/games/poker.html",
+      "destination": "/games/poker",
+      "permanent": true
+    },
+    {
+      "source": "/pages/games/poker",
+      "destination": "/games/poker",
+      "permanent": true
+    },
+    {
+      "source": "/pages/games/fantasy-cricket.html",
+      "destination": "/games/fantasy-cricket",
+      "permanent": true
+    },
+    {
+      "source": "/pages/games/fantasy-cricket",
+      "destination": "/games/fantasy-cricket",
+      "permanent": true
+    },
+    {
+      "source": "/pages/games/casino-games.html",
+      "destination": "/games/casino-games",
+      "permanent": true
+    },
+    {
+      "source": "/pages/games/casino-games",
+      "destination": "/games/casino-games",
+      "permanent": true
+    },
+    {
+      "source": "/pages/games/slots.html",
+      "destination": "/games/slots",
+      "permanent": true
+    },
+    {
+      "source": "/pages/games/slots",
+      "destination": "/games/slots",
+      "permanent": true
+    },
+    {
+      "source": "/pages/bonuses/index.html",
+      "destination": "/bonuses",
+      "permanent": true
+    },
+    {
+      "source": "/pages/bonuses/index",
+      "destination": "/bonuses",
+      "permanent": true
+    },
+    {
+      "source": "/pages/bonuses/welcome-bonus.html",
+      "destination": "/bonuses/welcome-bonus",
+      "permanent": true
+    },
+    {
+      "source": "/pages/bonuses/welcome-bonus",
+      "destination": "/bonuses/welcome-bonus",
+      "permanent": true
+    },
+    {
+      "source": "/pages/bonuses/referral-bonus.html",
+      "destination": "/bonuses/referral-bonus",
+      "permanent": true
+    },
+    {
+      "source": "/pages/bonuses/referral-bonus",
+      "destination": "/bonuses/referral-bonus",
+      "permanent": true
+    },
+    {
+      "source": "/pages/bonuses/daily-cashback.html",
+      "destination": "/bonuses/daily-cashback",
+      "permanent": true
+    },
+    {
+      "source": "/pages/bonuses/daily-cashback",
+      "destination": "/bonuses/daily-cashback",
+      "permanent": true
+    },
+    {
+      "source": "/pages/bonuses/first-deposit.html",
+      "destination": "/bonuses/first-deposit",
+      "permanent": true
+    },
+    {
+      "source": "/pages/bonuses/first-deposit",
+      "destination": "/bonuses/first-deposit",
+      "permanent": true
+    },
+    {
+      "source": "/pages/how-to-play/index.html",
+      "destination": "/how-to-play",
+      "permanent": true
+    },
+    {
+      "source": "/pages/how-to-play/index",
+      "destination": "/how-to-play",
+      "permanent": true
+    },
+    {
+      "source": "/pages/how-to-play/how-to-play-rummy.html",
+      "destination": "/how-to-play/rummy",
+      "permanent": true
+    },
+    {
+      "source": "/pages/how-to-play/how-to-play-rummy",
+      "destination": "/how-to-play/rummy",
+      "permanent": true
+    },
+    {
+      "source": "/pages/how-to-play/rummy-rules.html",
+      "destination": "/how-to-play/rummy-rules",
+      "permanent": true
+    },
+    {
+      "source": "/pages/how-to-play/rummy-rules",
+      "destination": "/how-to-play/rummy-rules",
+      "permanent": true
+    },
+    {
+      "source": "/pages/how-to-play/teen-patti-rules.html",
+      "destination": "/how-to-play/teen-patti-rules",
+      "permanent": true
+    },
+    {
+      "source": "/pages/how-to-play/teen-patti-rules",
+      "destination": "/how-to-play/teen-patti-rules",
+      "permanent": true
+    },
+    {
+      "source": "/pages/how-to-play/poker-hand-rankings.html",
+      "destination": "/how-to-play/poker-hand-rankings",
+      "permanent": true
+    },
+    {
+      "source": "/pages/how-to-play/poker-hand-rankings",
+      "destination": "/how-to-play/poker-hand-rankings",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    {
+      "source": "/favicon.ico",
+      "destination": "/public/favicon/favicon.ico"
+    },
+    {
+      "source": "/download",
+      "destination": "/pages/download.html"
+    },
+    {
+      "source": "/contact-us",
+      "destination": "/pages/contact.html"
+    },
+    {
+      "source": "/privacy-policy",
+      "destination": "/pages/privacy.html"
+    },
+    {
+      "source": "/disclaimer",
+      "destination": "/pages/terms.html"
+    },
+    {
+      "source": "/responsible-gaming",
+      "destination": "/pages/responsible-gaming.html"
+    },
+    {
+      "source": "/refer-and-earn",
+      "destination": "/pages/refer.html"
+    },
+    {
+      "source": "/blog",
+      "destination": "/pages/blog.html"
+    },
+    {
+      "source": "/games",
+      "destination": "/pages/games/index.html"
+    },
+    {
+      "source": "/games/online-rummy",
+      "destination": "/pages/games/online-rummy.html"
+    },
+    {
+      "source": "/games/teen-patti",
+      "destination": "/pages/games/teen-patti.html"
+    },
+    {
+      "source": "/games/poker",
+      "destination": "/pages/games/poker.html"
+    },
+    {
+      "source": "/games/fantasy-cricket",
+      "destination": "/pages/games/fantasy-cricket.html"
+    },
+    {
+      "source": "/games/casino-games",
+      "destination": "/pages/games/casino-games.html"
+    },
+    {
+      "source": "/games/slots",
+      "destination": "/pages/games/slots.html"
+    },
+    {
+      "source": "/bonuses",
+      "destination": "/pages/bonuses/index.html"
+    },
+    {
+      "source": "/bonuses/welcome-bonus",
+      "destination": "/pages/bonuses/welcome-bonus.html"
+    },
+    {
+      "source": "/bonuses/referral-bonus",
+      "destination": "/pages/bonuses/referral-bonus.html"
+    },
+    {
+      "source": "/bonuses/daily-cashback",
+      "destination": "/pages/bonuses/daily-cashback.html"
+    },
+    {
+      "source": "/bonuses/first-deposit",
+      "destination": "/pages/bonuses/first-deposit.html"
+    },
+    {
+      "source": "/how-to-play",
+      "destination": "/pages/how-to-play/index.html"
+    },
+    {
+      "source": "/how-to-play/rummy",
+      "destination": "/pages/how-to-play/how-to-play-rummy.html"
+    },
+    {
+      "source": "/how-to-play/rummy-rules",
+      "destination": "/pages/how-to-play/rummy-rules.html"
+    },
+    {
+      "source": "/how-to-play/teen-patti-rules",
+      "destination": "/pages/how-to-play/teen-patti-rules.html"
+    },
+    {
+      "source": "/how-to-play/poker-hand-rankings",
+      "destination": "/pages/how-to-play/poker-hand-rankings.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "DENY"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        }
+      ]
+    },
+    {
+      "source": "/public/favicon/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/public/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/css/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400"
+        }
+      ]
+    },
+    {
+      "source": "/js/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400"
+        }
+      ]
+    }
+  ]
+}

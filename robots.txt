@@ -1,0 +1,13 @@
+# Rummy Gold — https://www.rummygold.com
+User-agent: *
+Allow: /
+
+Disallow: /404
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Googlebot-Image
+Allow: /
+
+Sitemap: https://www.rummygold.com/sitemap.xml

@@ -1,0 +1,110 @@
+# Hostinger (Apache) — upload site contents to public_html
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Redirect old /pages/*.html URLs to clean URLs (SEO)
+  RewriteRule ^pages/download\.html$ /download [R=301,L]
+  RewriteRule ^pages/download$ /download [R=301,L]
+  RewriteRule ^pages/contact\.html$ /contact-us [R=301,L]
+  RewriteRule ^pages/contact$ /contact-us [R=301,L]
+  RewriteRule ^pages/privacy\.html$ /privacy-policy [R=301,L]
+  RewriteRule ^pages/privacy$ /privacy-policy [R=301,L]
+  RewriteRule ^pages/terms\.html$ /disclaimer [R=301,L]
+  RewriteRule ^pages/terms$ /disclaimer [R=301,L]
+  RewriteRule ^pages/responsible-gaming\.html$ /responsible-gaming [R=301,L]
+  RewriteRule ^pages/responsible-gaming$ /responsible-gaming [R=301,L]
+  RewriteRule ^pages/refer\.html$ /refer-and-earn [R=301,L]
+  RewriteRule ^pages/refer$ /refer-and-earn [R=301,L]
+  RewriteRule ^pages/blog\.html$ /blog [R=301,L]
+  RewriteRule ^pages/blog$ /blog [R=301,L]
+  RewriteRule ^pages/games/index\.html$ /games [R=301,L]
+  RewriteRule ^pages/games/index$ /games [R=301,L]
+  RewriteRule ^pages/games/online-rummy\.html$ /games/online-rummy [R=301,L]
+  RewriteRule ^pages/games/online-rummy$ /games/online-rummy [R=301,L]
+  RewriteRule ^pages/games/teen-patti\.html$ /games/teen-patti [R=301,L]
+  RewriteRule ^pages/games/teen-patti$ /games/teen-patti [R=301,L]
+  RewriteRule ^pages/games/poker\.html$ /games/poker [R=301,L]
+  RewriteRule ^pages/games/poker$ /games/poker [R=301,L]
+  RewriteRule ^pages/games/fantasy-cricket\.html$ /games/fantasy-cricket [R=301,L]
+  RewriteRule ^pages/games/fantasy-cricket$ /games/fantasy-cricket [R=301,L]
+  RewriteRule ^pages/games/casino-games\.html$ /games/casino-games [R=301,L]
+  RewriteRule ^pages/games/casino-games$ /games/casino-games [R=301,L]
+  RewriteRule ^pages/games/slots\.html$ /games/slots [R=301,L]
+  RewriteRule ^pages/games/slots$ /games/slots [R=301,L]
+  RewriteRule ^pages/bonuses/index\.html$ /bonuses [R=301,L]
+  RewriteRule ^pages/bonuses/index$ /bonuses [R=301,L]
+  RewriteRule ^pages/bonuses/welcome-bonus\.html$ /bonuses/welcome-bonus [R=301,L]
+  RewriteRule ^pages/bonuses/welcome-bonus$ /bonuses/welcome-bonus [R=301,L]
+  RewriteRule ^pages/bonuses/referral-bonus\.html$ /bonuses/referral-bonus [R=301,L]
+  RewriteRule ^pages/bonuses/referral-bonus$ /bonuses/referral-bonus [R=301,L]
+  RewriteRule ^pages/bonuses/daily-cashback\.html$ /bonuses/daily-cashback [R=301,L]
+  RewriteRule ^pages/bonuses/daily-cashback$ /bonuses/daily-cashback [R=301,L]
+  RewriteRule ^pages/bonuses/first-deposit\.html$ /bonuses/first-deposit [R=301,L]
+  RewriteRule ^pages/bonuses/first-deposit$ /bonuses/first-deposit [R=301,L]
+  RewriteRule ^pages/how-to-play/index\.html$ /how-to-play [R=301,L]
+  RewriteRule ^pages/how-to-play/index$ /how-to-play [R=301,L]
+  RewriteRule ^pages/how-to-play/how-to-play-rummy\.html$ /how-to-play/rummy [R=301,L]
+  RewriteRule ^pages/how-to-play/how-to-play-rummy$ /how-to-play/rummy [R=301,L]
+  RewriteRule ^pages/how-to-play/rummy-rules\.html$ /how-to-play/rummy-rules [R=301,L]
+  RewriteRule ^pages/how-to-play/rummy-rules$ /how-to-play/rummy-rules [R=301,L]
+  RewriteRule ^pages/how-to-play/teen-patti-rules\.html$ /how-to-play/teen-patti-rules [R=301,L]
+  RewriteRule ^pages/how-to-play/teen-patti-rules$ /how-to-play/teen-patti-rules [R=301,L]
+  RewriteRule ^pages/how-to-play/poker-hand-rankings\.html$ /how-to-play/poker-hand-rankings [R=301,L]
+  RewriteRule ^pages/how-to-play/poker-hand-rankings$ /how-to-play/poker-hand-rankings [R=301,L]
+
+  # Serve clean URLs from page files
+  RewriteRule ^download$ pages/download.html [L]
+  RewriteRule ^contact-us$ pages/contact.html [L]
+  RewriteRule ^privacy-policy$ pages/privacy.html [L]
+  RewriteRule ^disclaimer$ pages/terms.html [L]
+  RewriteRule ^responsible-gaming$ pages/responsible-gaming.html [L]
+  RewriteRule ^refer-and-earn$ pages/refer.html [L]
+  RewriteRule ^blog$ pages/blog.html [L]
+  RewriteRule ^games$ pages/games/index.html [L]
+  RewriteRule ^games/online-rummy$ pages/games/online-rummy.html [L]
+  RewriteRule ^games/teen-patti$ pages/games/teen-patti.html [L]
+  RewriteRule ^games/poker$ pages/games/poker.html [L]
+  RewriteRule ^games/fantasy-cricket$ pages/games/fantasy-cricket.html [L]
+  RewriteRule ^games/casino-games$ pages/games/casino-games.html [L]
+  RewriteRule ^games/slots$ pages/games/slots.html [L]
+  RewriteRule ^bonuses$ pages/bonuses/index.html [L]
+  RewriteRule ^bonuses/welcome-bonus$ pages/bonuses/welcome-bonus.html [L]
+  RewriteRule ^bonuses/referral-bonus$ pages/bonuses/referral-bonus.html [L]
+  RewriteRule ^bonuses/daily-cashback$ pages/bonuses/daily-cashback.html [L]
+  RewriteRule ^bonuses/first-deposit$ pages/bonuses/first-deposit.html [L]
+  RewriteRule ^how-to-play$ pages/how-to-play/index.html [L]
+  RewriteRule ^how-to-play/rummy$ pages/how-to-play/how-to-play-rummy.html [L]
+  RewriteRule ^how-to-play/rummy-rules$ pages/how-to-play/rummy-rules.html [L]
+  RewriteRule ^how-to-play/teen-patti-rules$ pages/how-to-play/teen-patti-rules.html [L]
+  RewriteRule ^how-to-play/poker-hand-rankings$ pages/how-to-play/poker-hand-rankings.html [L]
+
+  # Remove trailing slash
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.*)/$ /$1 [L,R=301]
+</IfModule>
+
+# Security headers
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "DENY"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+</IfModule>
+
+# Cache static assets
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType text/css "access plus 1 day"
+  ExpiresByType application/javascript "access plus 1 day"
+</IfModule>
+
+<IfModule mod_deflate.c>
+  AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml
+</IfModule>
+
+ErrorDocument 404 /pages/404.html

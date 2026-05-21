@@ -1,0 +1,69 @@
+:root {
+  /* Metallic gold (reference: #FFF2AD → #FFD700 → #B8860B) */
+  --color-gold: #ffd700;
+  --color-gold-light: #fff2ad;
+  --color-gold-dark: #b8860b;
+  --color-gold-mid: #d4a017;
+
+  /* Accents */
+  --color-accent: #27ae60;
+  --color-accent-light: #2ecc71;
+  --color-accent-dark: #1e8449;
+  --color-blue: #4a90e2;
+  --color-maroon: #4a0404;
+  --color-maroon-deep: #2d0505;
+
+  /* Dark warm backgrounds (#000 → #1A0A0A) */
+  --color-bg-dark: #0a0606;
+  --color-bg-header: #120808;
+  --color-bg-surface: #140909;
+  --color-bg-elevated: #1f0c0c;
+  --color-bg-section: rgba(20, 9, 9, 0.97);
+
+  --color-text: #ffffff;
+  --color-text-muted: rgba(255, 255, 255, 0.62);
+  --color-text-soft: rgba(255, 255, 255, 0.88);
+  --color-on-gold: #ffffff;
+
+  --color-border: rgba(255, 215, 0, 0.28);
+  --color-border-accent: rgba(39, 174, 96, 0.4);
+  --color-border-maroon: rgba(74, 4, 4, 0.6);
+
+  --gold-glow: rgba(255, 215, 0, 0.35);
+  --gold-glow-soft: rgba(255, 242, 173, 0.15);
+  --gold-glow-mid: rgba(255, 215, 0, 0.22);
+
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --space-xs: 0.25rem;
+  --space-sm: 0.5rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.75rem;
+  --radius-lg: 1rem;
+  --radius-xl: 1.25rem;
+  --radius-2xl: 1.5rem;
+
+  --header-height: 3.75rem;
+  --shell-max: 480px;
+  --touch-min: 2.75rem;
+  --transition: 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+
+  --container-padding: 1.25rem;
+  --shadow-gold: 0 4px 24px var(--gold-glow), 0 0 40px rgba(184, 134, 11, 0.12);
+  --shadow-card: 0 12px 40px rgba(0, 0, 0, 0.5);
+  --text-shadow-on-gold: 0 1px 3px rgba(0, 0, 0, 0.45);
+
+  --gradient-gold: linear-gradient(180deg, var(--color-gold-light) 0%, var(--color-gold) 48%, var(--color-gold-dark) 100%);
+  --gradient-gold-shine: linear-gradient(135deg, var(--color-gold-dark) 0%, var(--color-gold) 45%, var(--color-gold-light) 100%);
+  --gradient-hero: linear-gradient(165deg, #1a0a0a 0%, #120505 48%, #000000 100%);
+  --gradient-body: radial-gradient(ellipse 120% 80% at 50% 0%, #1a0a0a 0%, #0a0606 50%, #000000 100%);
+  --gradient-cta: linear-gradient(135deg, rgba(184, 134, 11, 0.28) 0%, rgba(74, 4, 4, 0.45) 100%);
+  --gradient-footer: linear-gradient(180deg, var(--color-maroon) 0%, var(--color-maroon-deep) 100%);
+  --gradient-divider: linear-gradient(90deg, transparent, var(--color-gold), transparent);
+}
