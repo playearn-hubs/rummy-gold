@@ -19,4 +19,5 @@ run("write-htaccess.mjs");
 run("apply-page-seo.mjs");
 run("seo-home-head.mjs");
 run("generate-sitemap.mjs");
+run("copy-clean-urls.mjs");
 console.log("\n=== Build complete — deploy the repo root to Vercel or Hostinger ===");

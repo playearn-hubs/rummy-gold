@@ -1,151 +1,218 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.rummygold.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://www.rummygold.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.rummygold.com/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rummygold.com/" />
     <lastmod>2026-05-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.00</priority>
   </url>
   <url>
     <loc>https://www.rummygold.com/download</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://www.rummygold.com/download" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.rummygold.com/download" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rummygold.com/download" />
     <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.95</priority>
   </url>
   <url>
     <loc>https://www.rummygold.com/games</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://www.rummygold.com/games" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.rummygold.com/games" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rummygold.com/games" />
     <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www.rummygold.com/bonuses</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://www.rummygold.com/bonuses" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.rummygold.com/bonuses" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rummygold.com/bonuses" />
     <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www.rummygold.com/how-to-play</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://www.rummygold.com/how-to-play" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.rummygold.com/how-to-play" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rummygold.com/how-to-play" />
     <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.90</priority>
   </url>
   <url>
     <loc>https://www.rummygold.com/games/online-rummy</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://www.rummygold.com/games/online-rummy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.rummygold.com/games/online-rummy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rummygold.com/games/online-rummy" />
     <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
   </url>
   <url>
     <loc>https://www.rummygold.com/games/teen-patti</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://www.rummygold.com/games/teen-patti" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.rummygold.com/games/teen-patti" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rummygold.com/games/teen-patti" />
     <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.88</priority>
   </url>
   <url>
     <loc>https://www.rummygold.com/bonuses/welcome-bonus</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://www.rummygold.com/bonuses/welcome-bonus" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.rummygold.com/bonuses/welcome-bonus" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rummygold.com/bonuses/welcome-bonus" />
     <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.86</priority>
   </url>
   <url>
     <loc>https://www.rummygold.com/refer-and-earn</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://www.rummygold.com/refer-and-earn" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.rummygold.com/refer-and-earn" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rummygold.com/refer-and-earn" />
     <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.rummygold.com/games/poker</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://www.rummygold.com/games/poker" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.rummygold.com/games/poker" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rummygold.com/games/poker" />
     <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.rummygold.com/bonuses/referral-bonus</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://www.rummygold.com/bonuses/referral-bonus" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.rummygold.com/bonuses/referral-bonus" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rummygold.com/bonuses/referral-bonus" />
     <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.rummygold.com/how-to-play/rummy</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://www.rummygold.com/how-to-play/rummy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.rummygold.com/how-to-play/rummy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rummygold.com/how-to-play/rummy" />
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.rummygold.com/how-to-play/rummy-rules</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://www.rummygold.com/how-to-play/rummy-rules" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.rummygold.com/how-to-play/rummy-rules" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rummygold.com/how-to-play/rummy-rules" />
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.85</priority>
   </url>
   <url>
     <loc>https://www.rummygold.com/bonuses/daily-cashback</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://www.rummygold.com/bonuses/daily-cashback" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.rummygold.com/bonuses/daily-cashback" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rummygold.com/bonuses/daily-cashback" />
     <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.83</priority>
   </url>
   <url>
     <loc>https://www.rummygold.com/bonuses/first-deposit</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://www.rummygold.com/bonuses/first-deposit" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.rummygold.com/bonuses/first-deposit" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rummygold.com/bonuses/first-deposit" />
     <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.83</priority>
   </url>
   <url>
     <loc>https://www.rummygold.com/how-to-play/teen-patti-rules</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://www.rummygold.com/how-to-play/teen-patti-rules" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.rummygold.com/how-to-play/teen-patti-rules" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rummygold.com/how-to-play/teen-patti-rules" />
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.83</priority>
   </url>
   <url>
     <loc>https://www.rummygold.com/how-to-play/poker-hand-rankings</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://www.rummygold.com/how-to-play/poker-hand-rankings" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.rummygold.com/how-to-play/poker-hand-rankings" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rummygold.com/how-to-play/poker-hand-rankings" />
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.83</priority>
   </url>
   <url>
     <loc>https://www.rummygold.com/games/fantasy-cricket</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://www.rummygold.com/games/fantasy-cricket" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.rummygold.com/games/fantasy-cricket" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rummygold.com/games/fantasy-cricket" />
     <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.82</priority>
   </url>
   <url>
     <loc>https://www.rummygold.com/games/casino-games</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://www.rummygold.com/games/casino-games" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.rummygold.com/games/casino-games" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rummygold.com/games/casino-games" />
     <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.82</priority>
   </url>
   <url>
     <loc>https://www.rummygold.com/games/slots</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://www.rummygold.com/games/slots" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.rummygold.com/games/slots" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rummygold.com/games/slots" />
     <lastmod>2026-05-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.82</priority>
   </url>
   <url>
-    <loc>https://www.rummygold.com/blog</loc>
-    <lastmod>2026-05-21</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
     <loc>https://www.rummygold.com/contact-us</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://www.rummygold.com/contact-us" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.rummygold.com/contact-us" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rummygold.com/contact-us" />
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.70</priority>
   </url>
   <url>
     <loc>https://www.rummygold.com/responsible-gaming</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://www.rummygold.com/responsible-gaming" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.rummygold.com/responsible-gaming" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rummygold.com/responsible-gaming" />
     <lastmod>2026-05-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.65</priority>
   </url>
   <url>
     <loc>https://www.rummygold.com/privacy-policy</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://www.rummygold.com/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.rummygold.com/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rummygold.com/privacy-policy" />
     <lastmod>2026-05-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.50</priority>
   </url>
   <url>
     <loc>https://www.rummygold.com/disclaimer</loc>
+    <xhtml:link rel="alternate" hreflang="en-IN" href="https://www.rummygold.com/disclaimer" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.rummygold.com/disclaimer" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.rummygold.com/disclaimer" />
     <lastmod>2026-05-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.50</priority>
