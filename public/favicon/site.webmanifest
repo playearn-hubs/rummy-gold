@@ -1,8 +1,9 @@
 {
   "name": "Teen Patti Gold",
   "short_name": "TeenPattiGold",
-  "description": "Play Teen Patti online — official Teen Patti Gold app",
+  "description": "Play Teen Patti online — official Teen Patti Gold app at teenpattigoldx.com",
   "start_url": "/",
+  "scope": "/",
   "display": "standalone",
   "background_color": "#0a0606",
   "theme_color": "#2d0505",
