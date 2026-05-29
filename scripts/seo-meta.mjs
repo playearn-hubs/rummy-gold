@@ -1,7 +1,7 @@
 import { DOMAIN, SITE } from "./config.mjs";
 
 export const OG_IMAGE = `${DOMAIN}/public/favicon/web-app-manifest-512x512.png`;
-export const OG_IMAGE_ALT = "Rummy Gold — official online rummy app logo";
+export const OG_IMAGE_ALT = "Teen Patti Gold — official online teen patti app logo";
 
 export function pageUrl(path) {
   return path === "/" ? `${DOMAIN}/` : `${DOMAIN}${path}`;

@@ -93,6 +93,6 @@ createServer((req, res) => {
   res.writeHead(404, { "Content-Type": "text/plain" });
   res.end(`Cannot GET ${pathname}`);
 }).listen(PORT, () => {
-  console.log(`Rummy Gold dev server: http://localhost:${PORT}`);
+  console.log(`Teen Patti Gold dev server: http://localhost:${PORT}`);
   console.log(`Try: http://localhost:${PORT}/games`);
 });

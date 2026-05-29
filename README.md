@@ -1,6 +1,6 @@
-# Rummy Gold — Marketing Site
+# Teen Patti Gold — Marketing Site
 
-Static SEO site for **Rummy Gold** (HTML/CSS/JS). Deploy the repository root to **Vercel** or **Hostinger**.
+Static SEO site for **Teen Patti Gold** (HTML/CSS/JS). Deploy the repository root to **Vercel** or **Hostinger**.
 
 ## Production deploy
 
@@ -18,7 +18,7 @@ Static SEO site for **Rummy Gold** (HTML/CSS/JS). Deploy the repository root to 
 - Framework Preset: **Other**
 - Build Command: `node scripts/copy-clean-urls.mjs` (or leave blank if `vercel.json` sets it)
 - Output Directory: `.` or leave empty
-4. In **Google Search Console**, submit `https://www.rummygold.com/sitemap.xml`.
+4. In **Google Search Console**, submit `https://www.teenpattigoldx.com/sitemap.xml`.
 
 ## Scripts
 

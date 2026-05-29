@@ -31,7 +31,7 @@ ${urls.join("\n")}
 
 writeFileSync(join(root, "sitemap.xml"), xml);
 
-const robots = `# Rummy Gold — ${DOMAIN}
+const robots = `# Teen Patti Gold — ${DOMAIN}
 User-agent: *
 Allow: /
 

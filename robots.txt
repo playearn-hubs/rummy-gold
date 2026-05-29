@@ -1,4 +1,4 @@
-# Rummy Gold — https://www.rummygold.com
+# Teen Patti Gold — https://www.teenpattigoldx.com
 User-agent: *
 Allow: /
 
@@ -11,4 +11,4 @@ Allow: /
 User-agent: Googlebot-Image
 Allow: /
 
-Sitemap: https://www.rummygold.com/sitemap.xml
+Sitemap: https://www.teenpattigoldx.com/sitemap.xml

@@ -60,9 +60,9 @@ function buildPageSchema(page) {
       description: page.description,
       url,
       inLanguage: "en-IN",
-      author: { "@type": "Organization", name: "Rummy Gold" },
-      publisher: { "@type": "Organization", name: "Rummy Gold", logo: { "@type": "ImageObject", url: `${DOMAIN}/public/favicon/web-app-manifest-512x512.png` } },
-      isPartOf: { "@type": "WebSite", name: "Rummy Gold", url: `${DOMAIN}/` },
+      author: { "@type": "Organization", name: "Teen Patti Gold" },
+      publisher: { "@type": "Organization", name: "Teen Patti Gold", logo: { "@type": "ImageObject", url: `${DOMAIN}/public/favicon/web-app-manifest-512x512.png` } },
+      isPartOf: { "@type": "WebSite", name: "Teen Patti Gold", url: `${DOMAIN}/` },
       mainEntityOfPage: url,
     },
     {
@@ -103,7 +103,7 @@ function buildRelatedSection(page) {
     .join("\n");
   return `
         <section class="page-related-links" aria-label="Related pages">
-          <h2 class="section-heading page-seo-heading">Explore more on Rummy Gold</h2>
+          <h2 class="section-heading page-seo-heading">Explore more on Teen Patti Gold</h2>
           <ul class="related-links-list">
 ${items}
           </ul>
@@ -127,11 +127,11 @@ function buildSeoBlock(page) {
         <section class="page-mini-faq" aria-labelledby="page-faq-${id}">
           <h2 id="page-faq-${id}" class="section-heading page-seo-heading">Frequently asked questions</h2>
 ${faqItems}
-          <p class="faq-hub-link"><a href="/#faq"><strong>View all Rummy Gold FAQ</strong> — download, bonuses, withdrawals &amp; more →</a></p>
+          <p class="faq-hub-link"><a href="/#faq"><strong>View all Teen Patti Gold FAQ</strong> — download, bonuses, withdrawals &amp; more →</a></p>
         </section>`
       : `
         <section class="page-mini-faq page-mini-faq--link-only" aria-label="FAQ">
-          <p class="faq-hub-link"><a href="/#faq"><strong>Rummy Gold FAQ</strong> — answers about download, APK, bonuses, legality &amp; payouts →</a></p>
+          <p class="faq-hub-link"><a href="/#faq"><strong>Teen Patti Gold FAQ</strong> — answers about download, APK, bonuses, legality &amp; payouts →</a></p>
         </section>`;
 
   return `
@@ -210,9 +210,9 @@ function addFaqToMobileNav(html) {
 
 function fixLogoAlt(html) {
   return html.replace(/<img(\s[\s\S]*?class="logo-img"[\s\S]*?)>/g, (tag) => {
-    if (tag.includes('alt="Rummy Gold logo"')) return tag;
-    if (/\salt=""/.test(tag)) return tag.replace(/\salt=""/, ' alt="Rummy Gold logo"');
-    return tag.replace(/>$/, ' alt="Rummy Gold logo">');
+    if (tag.includes('alt="Teen Patti Gold logo"')) return tag;
+    if (/\salt=""/.test(tag)) return tag.replace(/\salt=""/, ' alt="Teen Patti Gold logo"');
+    return tag.replace(/>$/, ' alt="Teen Patti Gold logo">');
   });
 }
 
