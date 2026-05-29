@@ -13,7 +13,7 @@ function run(script) {
   if (r.status !== 0) process.exit(r.status ?? 1);
 }
 
-console.log("=== Rummy Gold production build ===\n");
+console.log("=== Teen Patti Gold production build ===\n");
 run("write-vercel-routes.mjs");
 run("write-htaccess.mjs");
 run("apply-page-seo.mjs");
